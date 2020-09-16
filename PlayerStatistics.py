@@ -10,13 +10,13 @@ bike = 'Honda VFR VTEC'
 livesleft =  1j #complex
 ammo = 121 #int
 numberoflasers =  5 #int
-batterypower = 90.5 #floar
+batterypower = 90.5 #float
 level = 9000j #complex
 wanted = true
 
 print("Name = ",name)
 print("Jumpforce = ",name)
-print("Special Power = ", specialpower)
+print("Special Power = ", specialpower) 
 print("Speed = ",speed)
 print("bike = ",bike)
 print("Lives Left =  ",livesleft)
