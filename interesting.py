@@ -15,6 +15,7 @@ print(leeftijd," nice"'\n')
 print("doe je ook nog aan sport?")
 sport = input("type ja of nee : ").upper()
 
+h = 0
 
 if sport == "NEE":
     x = 'N'
@@ -25,7 +26,7 @@ elif sport == "JA":
 
     
 else:
-    print("sorry maar dat is geen ja of nee :(")
+    print("sorry maar dat is geen correcte input :(")
     print('\n'"exiting script")
     time.sleep(0.5)
     exit()
@@ -34,8 +35,16 @@ while x == 'Y':
     print("cool welke sport doe je?")
     sport1 = input("type hier je sport : ")
     print('\n''\n',sport1,"is een gave sport")
-    print("voor hoelang doe je deze sport al?")
-    sporttijd = input("")
+    print("ik doe geen sport")
+    time.sleep(2)
+    h = 1;
+    break
     
 while x == 'N':
         print("ik doe ook geen sport")
+        
+while h == 1:
+   print("goed om kennis met je te maken maar ik moet er weer vandoor")
+   print("laterrr")
+   time.sleep(4)
+   exit()
